@@ -1,4 +1,3 @@
-# oyako_de_cafe_smile
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -37,9 +36,9 @@
             <!-- <h1>OYAKO DE CAFE</h1>
             <h2>SMILE</h2> -->
             <p id="slideshow">
-                <img src="./images/smile.jpg" alt="画像1" class="active">
-                <img src="./images/smile2.jpg" alt="画像2">
-                <img src="./images/smile3.jpg" alt="画像3">
+                <img src="./images/smile.jpg" alt="smile1" class="active">
+                <img src="./images/smile2.jpg" alt="smile2">
+                <img src="./images/smile3.jpg" alt="smile3">
             </p>
         </div>
         <div class="text">

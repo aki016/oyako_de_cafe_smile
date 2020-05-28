@@ -39,6 +39,7 @@ header{
 }
 
 .text{
+    font-size: 30px;
     text-align: center;
     margin-top: 360px;
     font-family:serif;
@@ -51,9 +52,103 @@ h2{
     font-size:16px;
 }
 
-span{
+.sana{
     color:tomato;
 }
+
+.loading span {
+    display: inline-block;
+    margin: 0 -.075em;
+    animation: loading 3.2s infinite alternate;
+}
+
+.loading span:nth-child(2){
+    animation-delay: .2s;
+}
+.loading span:nth-child(3){
+    animation-delay: .4s;
+}
+.loading span:nth-child(4){
+    animation-delay: .6s;
+}
+.loading span:nth-child(5){
+    animation-delay: .8s;
+}
+.loading span:nth-child(6){
+    animation-delay: 1.0s;
+}
+.loading span:nth-child(7){
+    animation-delay: 1.2s;
+}
+.loading span:nth-child(8){
+    animation-delay: 1.4s;
+}
+.loading span:nth-child(9){
+    animation-delay: 1.6s;
+}
+.loading span:nth-child(10){
+    animation-delay: 1.8s;
+}
+.loading span:nth-child(11){
+    animation-delay: 2.0s;
+}
+.loading span:nth-child(12){
+    animation-delay: 2.2s;
+}
+.loading span:nth-child(13){
+    animation-delay: 2.4s;
+}
+.loading span:nth-child(14){
+    animation-delay: 2.6s;
+}
+.loading span:nth-child(15){
+    animation-delay: 2.8s;
+}
+.loading span:nth-child(16){
+    animation-delay: 3.0s;
+}
+.loading span:nth-child(17){
+    animation-delay: 3.2s;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #265301;
+  }
+  
+  a:visited {
+    color: #437A16;
+  }
+  
+  a:focus {
+    border-bottom: 1px solid;
+    background: #BAE498;
+  }
+  
+  a:hover {
+    border-bottom: 1px solid;     
+    background: #CDFEAA;
+  }
+  
+  a:active {
+    background: #265301;
+    color: #CDFEAA;
+  }
+
+@keyframes loading {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.6);
+    }
+  }
+
 @media (max-width:1000px){
     .container{
         height: 100px;

@@ -2,7 +2,7 @@ header{
     margin:0;
     background-image: url("./images/is.jpeg");
     background-size: cover;
-    height: 900px;
+    height: 1100px;
 }
 
 .container{
@@ -131,7 +131,7 @@ a {
   }
   
   a:hover {
-    border-bottom: 1px solid;     
+    border-bottom: 1px solid;
     background: #CDFEAA;
   }
   
@@ -163,8 +163,8 @@ a {
     }
     .text{
         font-family:serif;
-        font-size: 12px;
-        margin-top: 200px;
+        font-size: 20px;
+        margin-top: 220px;
     }
     
     .end-movie{
@@ -189,13 +189,13 @@ a {
     .text{
         font-family:serif;
         font-size: 11px;
-        margin-top:150px;
+        margin-top:180px;
     }
     
     .end-movie{
         font-size: 8px;
     }
     h2{
-        font-size:5px;
+        font-size:3px;
     }
 }

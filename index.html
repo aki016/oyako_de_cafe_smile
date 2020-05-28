@@ -20,21 +20,19 @@
 
         $next.css({opacity: 0.0})
             .addClass('active')
-            .animate({opacity: 1.0}, 2000, function() {
+            .animate({opacity: 1.0}, 1700, function() {
                 $active.removeClass('active last-active');
             });
     }
 
     $(function() {
-        setInterval( "slideSwitch()", 2500 );
+        setInterval( "slideSwitch()", 2000 );
     });
     </script>
 </head>
 <body>
     <header>
         <div class="container">
-            <!-- <h1>OYAKO DE CAFE</h1>
-            <h2>SMILE</h2> -->
             <p id="slideshow">
                 <img src="./images/smile.jpg" alt="smile1" class="active">
                 <img src="./images/smile2.jpg" alt="smile2">
@@ -44,10 +42,8 @@
         <div class="text">
             <h1>Thank you forever</h1>
             <h2>Photo Edit ©: <span>Sana</span></h2>
-            <a class="end-movie" href="https://youtu.be/WAiO5IGa4as">最後に　スタッフの皆様へ.......</a>
-            
+            <a class="end-movie" href="https://youtu.be/WAiO5IGa4as">⭐️最後に　スタッフの皆様へ.......</a>
         </div>
-
     </header>
 </body>
 </html>
